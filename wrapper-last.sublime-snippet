@@ -1,0 +1,18 @@
+<snippet>
+  <content>
+    <![CDATA[
+<td class="wrapper last">
+    <table class="${1:number} columns">
+        <tr>
+            <td>
+                ${2:<!-- insert content here -->}
+            </td>
+            <td class="expander"></td>
+        </tr>
+    </table>
+</td>
+]]>
+  </content>
+  <tabTrigger>wrapperlast</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+  <content>
+    <![CDATA[
+<table class="row">
+    <tr>
+        <td class="wrapper">
+            <table class="${1:<!-- insert number -->} columns">
+                <tr>
+                    <td>
+                    ${3:<!-- insert content here -->}
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+        <td class="wrapper last">
+            <table class="${2:<!-- insert number -->} columns">
+                <tr>
+                    <td>
+                    ${4:<!-- insert content here -->}
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+]]>
+  </content>
+  <tabTrigger>regrow</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

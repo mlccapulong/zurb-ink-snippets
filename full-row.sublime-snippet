@@ -1,0 +1,24 @@
+<snippet>
+  <content>
+    <![CDATA[
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+            <table class="twelve columns">
+                <tr>
+                    <td align="center" class="center">
+                        <center>
+                            ${1:<!-- insert content here -->}
+                        </center>
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+]]>
+  </content>
+  <tabTrigger>fullrow</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

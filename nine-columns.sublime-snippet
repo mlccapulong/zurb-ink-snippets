@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+    <![CDATA[
+<table class="nine columns">
+    <tr>
+        <td>
+            ${1:<!-- insert content here -->}
+        </td>
+        <td class="expander"></td>
+    </tr>
+</table>
+]]>
+  </content>
+  <tabTrigger>ninecolumns</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

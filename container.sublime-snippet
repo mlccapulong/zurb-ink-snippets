@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<table class="container">
+	<tr>
+		<td>
+			${1:<!-- inser content here -->}
+		</td>
+	</tr>
+</table>
+]]></content>
+  <tabTrigger>container</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
